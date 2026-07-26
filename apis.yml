@@ -1,7 +1,24 @@
 aid: doodle-mobile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doodle-mobile.png
 name: Doodle Mobile
-description: Doodle Mobile is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Doodle Mobile (Asia) Limited is a developer and publisher of casual mobile games for
+  Android, founded in 2010 and backed by KPCB and Innovation Works, with research and development
+  centers in Beijing and Shanghai and more than 300 million downloads across its catalog. Its titles
+  include Restaurant Live, Dino Island (Dragon), and Fast Racing 3D, and it also partners with third
+  party developers to publish games worldwide. Surfaced as a 500 Global portfolio company and added to
+  the API Evangelist network; enrichment found a static brochure website with no public developer API,
+  SDK, documentation, or portal.
 url: https://raw.githubusercontent.com/api-evangelist/doodle-mobile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mobile Games
+- Gaming
+- Android
+- Game Publishing
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/doodle-mobile-domain-security.yml
 - type: Website
-  url: https://doodlemobile.com
+  url: http://www.doodlemobile.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
